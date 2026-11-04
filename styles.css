@@ -9,6 +9,11 @@ body {
     font-size: 60px;
     color: #FFFF00;
     
+      #scrappers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
     
   }
   .welcome {
