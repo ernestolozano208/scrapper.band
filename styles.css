@@ -8,20 +8,15 @@ body {
     text-align: center;
     font-size: 60px;
     color: #FFFF00;
+    }
     
-      #scrappers {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-  }
+  
   .welcome {
     font-family: papyrus;
     text-align: center;
     color: #FFFF00;
   }
-  .scrappers {
+  #scrappers {
     display: block;
     margin-left: auto;
     margin-right: auto;
