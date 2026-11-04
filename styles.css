@@ -1,1 +1,27 @@
 
+body {
+    background-color: #000080;
+  }
+  
+  h1 {
+    font-family: papyrus;
+    text-align: center;
+    font-size: 60px;
+    color: #FFFF00;
+    
+    
+  }
+  .welcome {
+    font-family: papyrus;
+    text-align: center;
+    color: #FFFF00;
+  }
+  .capcom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  img {
+      transition: transform 0.2s; /* Smooth transition for the effect */
+  }
