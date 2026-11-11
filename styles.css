@@ -1,27 +1,28 @@
 
 body {
     background-color: #808080;
-  }
-  
-  h1 {
-    font-family: papyrus;
+}
+
+h1 {
+    font-family: Papyrus, fantasy;
     text-align: center;
     font-size: 60px;
     color: #FFFF00;
-    }
-    
-  
-  .welcome {
-    font-family: papyrus;
+}
+
+.welcome {
+    font-family: Papyrus, fantasy;
     text-align: center;
     color: #FFFF00;
-  }
-  #scrappers {
+}
+
+#scrappers {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-  }
+}
+
 /* Desktop computers */
 @media (min-width: 768px) {
     #scrappers {
@@ -35,12 +36,14 @@ body {
         width: 90%;
         margin: 30px auto;
     }
-    
+}
 
-  img {
-      transition: transform 0.2s; /* Smooth transition for the effect */
-  }
+/* Image transition */
+img {
+    transition: transform 0.2s;
+}
 
+/* Social Links */
 .social-link {
     display: block;
     width: 100%;
@@ -57,9 +60,10 @@ body {
     color: #FFFF00 !important;
     text-decoration: none !important;
     font-family: Papyrus, fantasy !important;
+    font-size: 50px;
 }
 
-.social-link,
+/* Upcoming Gigs */
 .upcoming-gigs {
     display: block;
     width: 100%;
@@ -68,4 +72,12 @@ body {
     font-size: 50px;
     color: #FFFF00 !important;
     margin-top: 50px;
+}
+
+.upcoming-gigs p {
+    font-family: Papyrus, fantasy !important;
+    font-size: 50px;
+    color: #FFFF00 !important;
+    text-align: center;
+    margin: 0;
 }
