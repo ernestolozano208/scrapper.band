@@ -58,3 +58,10 @@ body {
     text-decoration: none !important;
     font-family: Papyrus, fantasy !important;
 }
+
+.social-link,
+.upcoming-gigs {
+    font-family: Papyrus, fantasy;
+    color: #FFFF00;
+    text-align: center;
+}
