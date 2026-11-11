@@ -41,16 +41,20 @@ body {
       transition: transform 0.2s; /* Smooth transition for the effect */
   }
 
-    .social-link {
+.social-link {
     display: block;
-    width: fit-content;
+    width: 100%;
     margin: 50px auto 0 auto;
-    font-family: Papyrus, fantasy;
-    font-size: 50px;
     text-align: center;
+    font-family: Papyrus, fantasy !important;
+    font-size: 50px;
 }
 
-.no_underline {
-    text-decoration: none;
-    color: #FFFF00;
+.social-link a,
+.social-link a:visited,
+.social-link a:hover,
+.social-link a:active {
+    color: #FFFF00 !important;
+    text-decoration: none !important;
+    font-family: Papyrus, fantasy !important;
 }
