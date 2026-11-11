@@ -61,7 +61,11 @@ body {
 
 .social-link,
 .upcoming-gigs {
-    font-family: Papyrus, fantasy;
-    color: #FFFF00;
+    display: block;
+    width: 100%;
     text-align: center;
+    font-family: Papyrus, fantasy !important;
+    font-size: 50px;
+    color: #FFFF00 !important;
+    margin-top: 50px;
 }
